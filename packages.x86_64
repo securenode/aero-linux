@@ -122,6 +122,9 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+fish
+starship
+zoxide
 
 #Arch Linux GUI KDE Plasma
 plasma
