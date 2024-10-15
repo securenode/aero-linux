@@ -34,7 +34,6 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 hdparm
 hyperv
@@ -133,7 +132,7 @@ xorg
 sddm
 bash-completion
 networkmanager
-alg-welcome
+
 
 #System Utilities for ALG
 konsole
