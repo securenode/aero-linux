@@ -1,11 +1,12 @@
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
 alsa-utils
 amd-ucode
 arch-install-scripts
-archinstall
 b43-fwcutter
 base
+bcachefs-tools
 bind
-brltty
 broadcom-wl
 btrfs-progs
 clonezilla
@@ -16,7 +17,6 @@ ddrescue
 dhclient
 dhcpcd
 diffutils
-dmidecode
 dmraid
 dnsmasq
 dosfstools
@@ -28,26 +28,18 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
-foot-terminfo
 fsarchiver
 gnu-netcat
 gpart
 gpm
 gptfdisk
 grml-zsh-config
-grub
 hdparm
-hyperv
 intel-ucode
 irssi
-iw
 iwd
 jfsutils
-kitty-terminfo
-less
 lftp
-libfido2
-libusb-compat
 linux
 linux-atm
 linux-firmware
@@ -55,13 +47,11 @@ linux-firmware-marvell
 livecd-sounds
 lsscsi
 lvm2
-lynx
 man-db
 man-pages
 mc
 mdadm
 memtest86+
-memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -75,26 +65,20 @@ nilfs-utils
 nmap
 ntfs-3g
 nvme-cli
-open-iscsi
-open-vm-tools
 openconnect
 openssh
 openvpn
 partclone
 parted
 partimage
-pcsclite
+pv
 ppp
 pptpclient
-pv
 qemu-guest-agent
-refind
 reflector
 reiserfsprogs
 rp-pppoe
 rsync
-rxvt-unicode-terminfo
-screen
 sdparm
 sg3_utils
 smartmontools
@@ -104,16 +88,12 @@ sudo
 syslinux
 systemd-resolvconf
 tcpdump
-terminus-font
 testdisk
-tmux
-tpm2-tss
 udftools
 usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils
 vpnc
 wireless-regdb
 wireless_tools
@@ -123,25 +103,71 @@ xfsprogs
 xl2tpd
 zsh
 
-#Arch Linux GUI KDE Plasma
-plasma
-archlinux-appstream-data
+#Arch Linux GUI KDE Plasma Core
 xorg
 sddm
 bash-completion
 networkmanager
+linux-headers
+base-devel
+xf86-input-libinput
+pacman-contrib
+virtualbox-guest-utils
+
+#ALG Plasma
+plasma
+alg-plasma-settings
 alg-welcome
 
-#System Utilities for ALG
+#System Utilities for ALG Plasma
 konsole
 kate
 dolphin
+dolphin-plugins
 xdg-user-dirs
 spectacle
-packagekit-qt5
+ark
+gwenview
+filelight
+kcalc
 neofetch
+bluez-utils
+packagekit-qt5
+pipewire-pulse
+#pulseaudio-bluetooth
 
 #Installer
+grub
 calamares
-alg-pure-cala-config
+alg-theme-cala-config
 os-prober
+
+#Browser
+firefox
+alg-firefox-settings
+
+#Office
+okular
+
+#fonts
+ttf-ms-fonts
+ttf-roboto
+noto-fonts-cjk
+
+#printing
+cups
+
+#Video
+vlc
+
+#Icons
+tela-circle-icon
+mcmojave-cursors
+
+#AUR Helper
+paru
+
+#NVIDIA Drivers & Tools
+nvidia
+nvidia-utils
+nvidia-settings

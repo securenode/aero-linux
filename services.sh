@@ -7,10 +7,8 @@
 #RUN AT YOUR OWN RISK.
 #=================================================================================
 
-
-cd airootfs/etc/systemd/system/
-pwd
-
+cd ..
+cd makeiso/airootfs/etc/systemd/system/
 tput setaf 2
 echo "Enabling SDDM and Graphical Target.."
 tput sgr0
@@ -26,6 +24,17 @@ ln -sv /usr/lib/systemd/system/NetworkManager.service multi-user.target.wants/Ne
 ln -sv /usr/lib/systemd/system/NetworkManager-wait-online.service network-online.target.wants/NetworkManager-wait-online.service
 
 ln -sv /usr/lib/systemd/system/NetworkManager-dispatcher.service dbus-org.freedesktop.nm-dispatcher.service
+
+tput setaf 2
+echo "Enabling Printing Services..."
+tput sgr0
+
+mkdir printer.target.wants
+ln -sv /usr/lib/systemd/system/cups.service printer.target.wants/cups.service
+
+ln -sv /usr/lib/systemd/system/cups.socket sockets.target.wants/cups.socket
+
+ln -sv /usr/lib/systemd/system/cups.path multi-user.target.wants/cups.path
 
 tput setaf 2
 echo "Enabling Bluetooth..."
