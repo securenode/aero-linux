@@ -8,6 +8,6 @@ Encoding=UTF-8
 Terminal=false
 Exec=welcome
 Icon=/usr/share/pixmaps/welcome.png
-Comment=Aero - Welcome App
+Comment=ALG - Welcome App
 Categories=System;Go;
 StartupNotify=true

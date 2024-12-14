@@ -34,6 +34,7 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
+grml-zsh-config
 grub
 hdparm
 hyperv
@@ -121,9 +122,6 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
-fish
-starship
-zoxide
 
 #Arch Linux GUI KDE Plasma
 plasma
@@ -132,7 +130,7 @@ xorg
 sddm
 bash-completion
 networkmanager
-
+alg-welcome
 
 #System Utilities for ALG
 konsole

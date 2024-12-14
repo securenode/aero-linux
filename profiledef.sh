@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="aero-linux"
-iso_label="AERO_KDE_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="Rama"
-iso_application="Aero Live/Rescue CD"
+iso_name="alg-plasma-pure"
+iso_label="ALG_KDE_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_publisher="DemonKiller <https://demonkiller.tech>"
+iso_application="ALG Live/Rescue CD"
 iso_version="$(date +%Y.%m)"
 install_dir="arch"
 buildmodes=('iso')
